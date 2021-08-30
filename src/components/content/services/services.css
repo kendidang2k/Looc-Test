@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap");
+
+.services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.services .cover-services {
+  text-align: center;
+}
+.services .cover-services .title {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.services .cover-services .detail {
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 25px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.services .cover-services .cover-service-items {
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+@media (max-width: 992px) {
+  .services .cover-services .cover-service-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .services .cover-services .title {
+    font-size: 20px;
+  }
+  .services .cover-services .detail {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .services .cover-services .title {
+    font-size: 15px;
+  }
+  .services .cover-services .detail {
+    font-size: 10px;
+  }
+}

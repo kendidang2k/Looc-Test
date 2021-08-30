@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.header button {
+  width: 100px;
+  height: 30px;
+  margin: 0 20px 0 0;
+  background-color: var(--orange);
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  padding: auto;
+  color: var(--light);
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.header button:last-child {
+  margin: 0;
+}
+.header button:hover {
+  background-color: var(--light);
+  color: var(--orange);
+}
+.header .cover-submit-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.header .cover-submit-btn .header-submit-btn {
+  width: 150px;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .header button {
+    width: 80px;
+  }
+}

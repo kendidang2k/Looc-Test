@@ -1,0 +1,11 @@
+.catalog {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.catalog .mySwiper .swiper-wrapper .swiper-slide {
+  overflow: hidden;
+  width: 300px !important;
+  height: 180px;
+  position: relative;
+}

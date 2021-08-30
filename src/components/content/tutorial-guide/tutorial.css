@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.tutorial-guide {
+  width: 100%;
+  margin-top: 30px;
+  background-color: var(--secondary);
+  position: relative;
+  display: block;
+}
+.tutorial-guide .cover-tutorial-guide {
+  margin: 0 150px;
+  display: block;
+  /* padding: 1px; */
+  overflow: auto;
+}
+
+.tutorial-guide .cover-tutorial-guide .title {
+  margin-top: 70px;
+  display: block;
+}
+
+.tutorial-guide .cover-tutorial-guide .title p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.tutorial-guide .cover-tutorial-guide .title p:first-child {
+  font-size: 12px;
+  color: var(--orange);
+}
+
+.tutorial-guide .cover-tutorial-guide .title p:nth-child(2) {
+  font-size: 25px;
+}
+
+.tutorial-guide .cover-tutorial-guide .title .small-title {
+  font-weight: 100;
+  margin: 5px 0;
+}
+
+.tutorial-guide .cover-tutorial-guide .card-group {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 450px;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  .tutorial-guide .cover-tutorial-guide {
+    margin: 0 100px;
+  }
+  .tutorial-guide .cover-tutorial-guide .card-group {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tutorial-guide .cover-tutorial-guide {
+    margin: 0 50px;
+  }
+  .tutorial-guide .cover-tutorial-guide .card-group {
+    height: 300px;
+  }
+
+  .tutorial-guide .cover-tutorial-guide .title p:nth-child(2) {
+    font-size: 20px;
+  }
+  .tutorial-guide .cover-tutorial-guide .title .small-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .tutorial-guide .cover-tutorial-guide {
+    margin: 20px;
+  }
+  .tutorial-guide .cover-tutorial-guide .card-group {
+    height: auto;
+  }
+  .card-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+}

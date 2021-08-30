@@ -1,0 +1,60 @@
+.achievement .cover-achievement {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--darkBg);
+  padding: 50px 0;
+}
+
+.achievement .cover-achievement .title {
+  font-size: 30px;
+  color: var(--light);
+}
+
+.achievement .cover-achievement .cover-counter {
+  display: block;
+}
+
+.achievement .cover-achievement .detail {
+  color: var(--light);
+  margin-top: 40px;
+}
+
+.achievement .cover-achievement .submit {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: var(--orange);
+  width: 150px;
+  height: 40px;
+  color: var(--light);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.achievement .cover-achievement .submit:hover {
+  background: var(--light);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+@media (max-width: 992px) {
+  .achievement .cover-achievement .title {
+    font-size: 20px;
+  }
+  .achievement .cover-achievement .detail {
+    font-size: 12px;
+  }
+  .achievement .cover-achievement .submit {
+    width: 120px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 300px) {
+  .achievement .cover-achievement .detail {
+    font-size: 10px;
+  }
+}

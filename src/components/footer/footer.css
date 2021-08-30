@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+footer {
+  background-color: var(--grayBg);
+}
+
+footer .cover-footer {
+  margin: 0 16%;
+  padding: 50px 0 100px 0;
+}
+footer .cover-footer .contact-information {
+  display: inline-block;
+}
+footer .cover-footer .contact-information p {
+  color: var(--bgIcon);
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+footer .cover-footer .contact-information .name {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+footer .cover-footer .contact-information .name span {
+  margin-left: 30px;
+}
+
+footer .cover-footer .social-media {
+  float: right;
+}
+footer .cover-footer .social-media a {
+  display: block;
+  float: left;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  background: var(--bgIconOri);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .cover-footer .social-media a:hover {
+  background: var(--bgIcon);
+}
+footer .cover-footer .social-media .twitter:hover p svg {
+  color: var(--sea);
+}
+footer .cover-footer .social-media .instagram:hover p svg {
+  color: var(--orange);
+}
+footer .cover-footer .social-media .facebook:hover p svg {
+  color: var(--primary);
+}
+footer .cover-footer .social-media .youtube:hover p svg {
+  color: var(--danger);
+}
+footer .cover-footer .social-media a p {
+  margin: 0;
+  line-height: 10px;
+}
+
+footer .cover-footer .social-media a p svg {
+  transition: 0.3s ease-in-out;
+  color: var(--light);
+}
+
+footer .cover-footer .copyright {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: var(--bgIcon);
+  margin-top: 30px;
+}
+@media (max-width: 1200px) {
+  footer .cover-footer {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .cover-footer {
+    margin: 0 8%;
+  }
+  footer .cover-footer .contact-information .name {
+    font-size: 14px;
+  }
+  footer .cover-footer .contact-information .address {
+    font-size: 12px;
+  }
+  footer .cover-footer .social-media a {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .cover-footer {
+    margin: 0 5%;
+  }
+  footer .cover-footer .social-media {
+    float: left;
+    margin: 10px 0;
+  }
+  footer .cover-footer .social-media a:first-child {
+    margin-left: 0;
+  }
+  footer .cover-footer .copyright {
+    margin-top: 80px;
+  }
+  footer .cover-footer .contact-information .name {
+    font-size: 13px;
+  }
+  footer .cover-footer .contact-information .address {
+    font-size: 11px;
+  }
+}
