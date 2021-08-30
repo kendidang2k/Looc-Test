@@ -5,7 +5,7 @@
 
 .catalog .mySwiper .swiper-wrapper .swiper-slide {
   overflow: hidden;
-  width: 300px !important;
+  /* width: 300px !important; */
   height: 180px;
   position: relative;
 }
