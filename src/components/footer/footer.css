@@ -102,6 +102,9 @@ footer .cover-footer .copyright {
   footer .cover-footer {
     margin: 0 5%;
   }
+  footer .cover-footer .contact-information {
+    display: block;
+  }
   footer .cover-footer .social-media {
     float: left;
     margin: 10px 0;
